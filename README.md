@@ -1,5 +1,6 @@
 # Class-D-amplifier
 1️⃣ Background Theory
+
 A Class D amplifier is a switching amplifier that uses pulse-width modulation (PWM) or similar techniques (e.g., pulse-density modulation, sigma-delta modulation) to represent an analog audio signal as a sequence of high-frequency pulses.
 
 Instead of linearly amplifying the audio waveform (as in Class A or B), it switches the output transistors fully on or fully off. This drastically reduces the time they spend in the linear conduction region, minimizing power loss.
@@ -13,6 +14,7 @@ Heat generation is low, even at high output power
 Compact size is achievable (no huge heatsinks)
 
 2️⃣ Working Principle
+
 Step-by-step signal flow:
 
 Modulation Stage
@@ -46,6 +48,7 @@ Audio: 1 kHz sine wave
 The PWM signal’s duty cycle varies slowly over time to match the 1 kHz waveform. After filtering, only the 1 kHz sine remains — but now it’s strong enough to drive a speaker.
 
 3️⃣ Advantages of Class D Amplifiers
+
 Feature	Benefit
 High Efficiency	85–95%, less heat, smaller cooling requirements
 Compact Size	No large heatsinks, smaller PCB footprint
@@ -54,6 +57,7 @@ Battery Friendly	Perfect for portable audio devices due to low power loss
 Lightweight	Important in mobile, automotive, and stage equipment
 
 4️⃣ Challenges & Considerations
+
 Challenge	How It’s Addressed
 Electromagnetic Interference (EMI)	PCB layout optimization, shielding, spread-spectrum switching
 Switching Noise	LC filter design and proper grounding
