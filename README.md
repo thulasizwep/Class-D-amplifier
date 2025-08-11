@@ -1,4 +1,6 @@
 # Class-D-amplifier
+<img width="1135" height="786" alt="image" src="https://github.com/user-attachments/assets/52b077ae-3ce5-45f7-ac3a-620177b55d73" />
+
 1️⃣ Background Theory
 
 A Class D amplifier is a switching amplifier that uses pulse-width modulation (PWM) or similar techniques (e.g., pulse-density modulation, sigma-delta modulation) to represent an analog audio signal as a sequence of high-frequency pulses.
@@ -64,3 +66,6 @@ Switching Noise	LC filter design and proper grounding
 Distortion	Feedback loop or post-filter feedback
 Dead Time Control	Proper MOSFET driver IC or timing to avoid shoot-through
 Load Dependence	Filter values chosen for specific speaker impedance
+
+
+<img width="1218" height="623" alt="{73653AD1-5E36-46C1-8784-6A7D540AC83C}" src="https://github.com/user-attachments/assets/f46e0a0a-e899-489d-9ea3-589f4314e4c0" />
